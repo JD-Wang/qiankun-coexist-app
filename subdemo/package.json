@@ -1,0 +1,20 @@
+{
+  "name": "subdemo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cross-env --max_old_space_size=4096 vite",
+    "build": "cross-env  vite build ",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "vite-plugin-qiankun": "^1.0.14",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
